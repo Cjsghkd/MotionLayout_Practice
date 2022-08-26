@@ -4,14 +4,12 @@
     <Transition
         app:constraintSetEnd="@+id/end"
         app:constraintSetStart="@+id/start"
-        app:motionInterpolator="linear"
-        >
+        app:motionInterpolator="linear">
 
         <OnSwipe
             app:dragDirection="dragLeft"
             app:touchAnchorId="@+id/button2"
-            app:touchAnchorSide="right"
-            />
+            app:touchAnchorSide="right" />
 
     </Transition>
 
@@ -24,11 +22,11 @@
             android:layout_marginStart="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" >
+            app:layout_constraintTop_toTopOf="parent">
 
-        <CustomAttribute
-            app:attributeName="backgroundColor"
-            app:customColorValue="@color/purple_200" />
+            <CustomAttribute
+                app:attributeName="backgroundColor"
+                app:customColorValue="@color/purple_200" />
 
         </Constraint>
 
@@ -42,12 +40,11 @@
             android:layout_marginStart="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" >
+            app:layout_constraintTop_toTopOf="parent">
 
             <CustomAttribute
                 app:attributeName="backgroundColor"
                 app:customColorValue="@color/purple_700" />
-
 
         </Constraint>
 
