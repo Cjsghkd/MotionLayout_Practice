@@ -13,6 +13,7 @@
 
     </Transition>
 
+    <!--  ConstraintSet 을 통해 background color 조정  -->
     <ConstraintSet android:id="@+id/start">
 
         <Constraint
