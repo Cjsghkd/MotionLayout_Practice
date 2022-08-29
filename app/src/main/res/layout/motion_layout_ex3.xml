@@ -7,6 +7,14 @@
     app:layoutDescription="@xml/scene_03"
     app:showPaths="true" >
 
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@color/white"
+        android:src="@drawable/ic_baseline_airplanemode_active_24"
+        app:altSrc="@drawable/ic_baseline_airplanemode_inactive_24" />
+
 
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
